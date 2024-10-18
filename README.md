@@ -2,7 +2,7 @@ Data Storage Finished
 ---------------------
 
 **Configured for Glitch**
-1. In `index.js`, set the port variable to be equal to the environment variable
+1. In `index.js`, set the`port` variable to be equal to the environment variable
 ```
 let port = process.env.PORT || 3000;
 app.listen(port, () => {
